@@ -164,7 +164,7 @@ public struct CropToolbarConfig {
     public var toolbarButtonOptions: ToolbarButtonOptions = .default
     public var presetRatiosButtonSelected = false
 
-    var mode: CropToolbarMode = .normal
+    public var mode: CropToolbarMode = .normal
     var includeFixedRatioSettingButton = true
 }
 
